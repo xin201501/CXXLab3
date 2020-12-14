@@ -1,6 +1,6 @@
 #include "grahpics/Cline.h"
-#include "grahpics/Shape.h"
 #include "CPoint.h"
+#include "grahpics/Shape.h"
 #include <cmath>
 #include <iostream>
 double Cline::Distance() {

@@ -14,10 +14,10 @@ public:
     void setHeight(size_t height) {
         Height = height;
     }
-    void Run(){
+    void Run() {
         std::cout << "bicycle runs.\n";
     }
-    void Stop(){
+    void Stop() {
         std::cout << "bicycle stops.\n";
     }
 };

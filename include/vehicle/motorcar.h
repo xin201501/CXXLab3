@@ -13,10 +13,10 @@ public:
     void setSeatNum(size_t seatNum) {
         SeatNum = seatNum;
     }
-    void Run(){
+    void Run() {
         std::cout << "motorcar runs.\n";
     }
-    void Stop(){
+    void Stop() {
         std::cout << "motorcar stops.\n";
     }
 };
