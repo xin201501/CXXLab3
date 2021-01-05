@@ -12,7 +12,7 @@ public:
     int GetY() const;
     void SetX(int);
     void SetY(int);
-    void ShowPoint() const;
+    virtual void ShowPoint();
     CPoint operator+(const CPoint &pt) const {
         return {this->x + pt.x, this->y + pt.y};
     }

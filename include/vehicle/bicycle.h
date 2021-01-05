@@ -1,7 +1,7 @@
 #pragma once
 #include "vehicle.h"
 #include <iostream>
-class bicycle : public vehicle {
+class bicycle : virtual public vehicle {
 private:
     size_t Height;
 
@@ -14,10 +14,10 @@ public:
     void setHeight(size_t height) {
         Height = height;
     }
-    void Run() {
+    void Run() override {
         std::cout << "bicycle runs.\n";
     }
-    void Stop() {
+    void Stop() override {
         std::cout << "bicycle stops.\n";
     }
 };

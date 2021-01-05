@@ -18,7 +18,7 @@ void CPoint::SetX(int x_) {
 void CPoint::SetY(int y_) {
     y = y_;
 }
-void CPoint::ShowPoint() const {
+void CPoint::ShowPoint() {
     std::cout << "x:" << x << " y:" << y;
 }
 std::istream &operator>>(std::istream &is, CPoint &p) {

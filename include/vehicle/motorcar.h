@@ -1,6 +1,6 @@
 #include "vehicle.h"
 #include <iostream>
-class motorcar : public vehicle {
+class motorcar : virtual public vehicle {
 private:
     size_t SeatNum;
 
